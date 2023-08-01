@@ -64,11 +64,17 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-requisitos minimos 
-php 8.x
-composer ultima vrsion
-Descripcion dela api
-esta  api tiene como objectivo el  crud de la usuario
-despliegue 
-clone  la carpeta apirestfull con git
-corra la migracion con composer
+
+## Requisitos minimos 
+
+php 8.x,
+Composer ultima vrsion.
+
+## Descripcion de la api
+
+esta  api tiene como objectivo el  crud de usuarios.
+## Despliegue 
+
+Clone  la carpeta apirestfull con git.
+
+Corra la migracion con composer.
