@@ -1,0 +1,369 @@
+{
+	"info": {
+		"_postman_id": "7395817e-16c5-4c51-9c45-3935fe4fa6e3",
+		"name": "userCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/apiRestfull/public/api/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"apiRestfull",
+						"public",
+						"api",
+						"users"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "agustin mora narvaez",
+							"disabled": true
+						},
+						{
+							"key": "identification_type",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "agu.mora@hotmail.com",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "1156",
+							"disabled": true
+						}
+					]
+				},
+				"description": "get users"
+			},
+			"response": []
+		},
+		{
+			"name": "Create users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "1",
+							"type": "default",
+							"disabled": true
+						},
+						{
+							"key": "name",
+							"value": "jmora01",
+							"type": "default",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "jmora061483@gmail.com",
+							"type": "default",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "123",
+							"type": "default",
+							"disabled": true
+						},
+						{
+							"key": "identification_type_id",
+							"value": "1",
+							"type": "default",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/apiRestfull/public/api/users?name=agustin mora narvaez&identification_type=1&email=agu.mora@hotmail.com&password=1156",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"apiRestfull",
+						"public",
+						"api",
+						"users"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "agustin mora narvaez"
+						},
+						{
+							"key": "identification_type",
+							"value": "1"
+						},
+						{
+							"key": "email",
+							"value": "agu.mora@hotmail.com"
+						},
+						{
+							"key": "password",
+							"value": "1156"
+						}
+					]
+				},
+				"description": "get users"
+			},
+			"response": []
+		},
+		{
+			"name": "Get users by {id]",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "1",
+							"type": "default",
+							"disabled": true
+						},
+						{
+							"key": "name",
+							"value": "jmora01",
+							"type": "default",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "jmora061483@gmail.com",
+							"type": "default",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "123",
+							"type": "default",
+							"disabled": true
+						},
+						{
+							"key": "identification_type_id",
+							"value": "1",
+							"type": "default",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/apiRestfull/public/api/users/11",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"apiRestfull",
+						"public",
+						"api",
+						"users",
+						"11"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "agustin mora narvaez",
+							"disabled": true
+						},
+						{
+							"key": "identification_type",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "agu.mora@hotmail.com",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "1156",
+							"disabled": true
+						}
+					]
+				},
+				"description": "get users"
+			},
+			"response": []
+		},
+		{
+			"name": "update user",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "1",
+							"type": "default",
+							"disabled": true
+						},
+						{
+							"key": "name",
+							"value": "jmora01",
+							"type": "default",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "jmora061483@gmail.com",
+							"type": "default",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "123",
+							"type": "default",
+							"disabled": true
+						},
+						{
+							"key": "identification_type_id",
+							"value": "1",
+							"type": "default",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/apiRestfull/public/api/users/{id}?name=&identification_type=",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"apiRestfull",
+						"public",
+						"api",
+						"users",
+						"{id}"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "agu.mora@hotmail.com",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "1156",
+							"disabled": true
+						},
+						{
+							"key": "name",
+							"value": ""
+						},
+						{
+							"key": "identification_type",
+							"value": ""
+						}
+					]
+				},
+				"description": "get users"
+			},
+			"response": []
+		},
+		{
+			"name": "delete user",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "1",
+							"type": "default",
+							"disabled": true
+						},
+						{
+							"key": "name",
+							"value": "jmora01",
+							"type": "default",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "jmora061483@gmail.com",
+							"type": "default",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "123",
+							"type": "default",
+							"disabled": true
+						},
+						{
+							"key": "identification_type_id",
+							"value": "1",
+							"type": "default",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/apiRestfull/public/api/users/{id}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"apiRestfull",
+						"public",
+						"api",
+						"users",
+						"{id}"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "agu.mora@hotmail.com",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "1156",
+							"disabled": true
+						},
+						{
+							"key": "name",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "identification_type",
+							"value": "",
+							"disabled": true
+						}
+					]
+				},
+				"description": "get users"
+			},
+			"response": []
+		}
+	]
+}
