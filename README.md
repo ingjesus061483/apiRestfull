@@ -68,11 +68,13 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## Requisitos minimos 
 
 php 8.x,
+
 Composer ultima vrsion.
 
 ## Descripcion de la api
 
 esta  api tiene como objectivo el  crud de usuarios.
+
 ## Despliegue 
 
 Clone  la carpeta apirestfull con git.
